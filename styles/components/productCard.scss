@@ -1,0 +1,23 @@
+.product-card--parent {
+	@media (min-width: 768px) {
+		min-height: rem(425px);
+	}
+	height: 100%;
+	.product-card--parent--link {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100%;
+		.product-card--image {
+			width: 100%;
+			padding: rem(10px);
+		}
+		.product-card--text-wrapper {
+			margin-top: rem(5px);
+			.product-card--parent--title {
+				color: $text;
+				font-size: rem(14px);
+			}
+		}
+	}
+}

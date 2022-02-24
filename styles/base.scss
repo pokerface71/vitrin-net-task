@@ -1,0 +1,29 @@
+$header-height: 92px;
+$footer-height: 92px;
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: tahoma, arial, helvetica;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	color: $text;
+	background-color: white;
+	overflow-x: hidden;
+}
+.main-content {
+	min-height: calc(100vh - #{$header-height + $footer-height});
+	&.is-central {
+		min-height: 100vh !important;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	&.main-margin-top {
+		padding-top: rem(100px) !important;
+	}
+}
+a {
+	text-decoration: none;
+}

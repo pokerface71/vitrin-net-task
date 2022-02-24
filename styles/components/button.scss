@@ -1,0 +1,20 @@
+.btn {
+	&.btn-border {
+		border-radius: $border-radius-sm;
+		&.isLoading:before {
+			border-radius: $border-radius-xl;
+		}
+	}
+	&.isLoading {
+		pointer-events: none;
+		&:after {
+			border-width: rem(5px);
+			width: rem(32px);
+			height: rem(32px);
+			margin: rem(-16px);
+		}
+	}
+	&.btn-main {
+		background: $btn-linear-gradient;
+	}
+}

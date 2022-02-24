@@ -1,0 +1,10 @@
+.header-menu {
+	display: flex;
+	margin-top: rem(10px);
+	li {
+		margin-left: rem(15px);
+		&:hover {
+			color: blue;
+		}
+	}
+}

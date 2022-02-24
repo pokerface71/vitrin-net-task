@@ -1,0 +1,51 @@
+@media (min-width: 1400px) {
+	.container {
+		max-width: 1320px;
+	}
+}
+
+.font-size-icon-64 {
+	&::before {
+		font-size: rem(64px) !important;
+	}
+}
+.font-size-icon-48 {
+	&::before {
+		font-size: rem(48px) !important;
+	}
+}
+.font-size-icon-40 {
+	&::before {
+		font-size: rem(48px) !important;
+	}
+}
+.font-size-icon-32 {
+	&::before {
+		font-size: rem(28px) !important;
+	}
+}
+.font-size-icon-24 {
+	&::before {
+		font-size: rem(24px) !important;
+	}
+}
+.font-size-icon-18 {
+	&::before {
+		font-size: rem(18px) !important;
+	}
+}
+a {
+	&:hover {
+		text-decoration: none;
+	}
+}
+ul {
+	list-style: none;
+	padding-right: 0;
+}
+img {
+	width: 100%;
+}
+p {
+	margin: 0;
+}

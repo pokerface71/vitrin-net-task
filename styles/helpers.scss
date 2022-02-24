@@ -1,0 +1,99 @@
+/*font & text*/
+.font-0 {
+	font-size: 0;
+}
+.font-10 {
+	font-size: rem(10px);
+}
+.font-12 {
+	font-size: rem(12px);
+}
+.font-14 {
+	font-size: rem(14px);
+}
+.font-16 {
+	font-size: rem(16px);
+}
+.font-18 {
+	font-size: rem(18px);
+}
+.font-20 {
+	font-size: rem(20px);
+}
+.font-24 {
+	font-size: rem(24px);
+}
+.font-28 {
+	font-size: rem(28px);
+}
+.font-32 {
+	font-size: rem(32px);
+}
+.font-48 {
+	font-size: rem(48px);
+}
+.font-64 {
+	font-size: rem(64px);
+}
+.font-weight-900 {
+	font-weight: 900;
+}
+.font-weight-600 {
+	font-weight: 600;
+}
+.is-line-normal {
+	line-height: normal;
+}
+.is-word-break {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/*border styles*/
+.is-border-radius-xs {
+	border-radius: rem($border-radius-xs) !important;
+}
+.is-border-radius-sm {
+	border-radius: rem($border-radius-sm) !important;
+}
+.is-border-radius-md {
+	border-radius: rem($border-radius-md) !important;
+}
+.is-border-radius-lg {
+	border-radius: rem($border-radius-lg) !important;
+}
+.is-border-radius-full {
+	border-radius: $border-radius-full;
+}
+.is-border-width-xs {
+	border-width: rem(1px) !important;
+}
+.is-border-width-sm {
+	border-width: rem(2px) !important;
+}
+.is-border-width-md {
+	border-width: rem(3px) !important;
+}
+.is-border-width-lg {
+	border-width: rem(4px) !important;
+}
+// color
+.is-color-red-Light {
+	color: red;
+}
+.is-text {
+	color: $text;
+}
+.font-weight-bold {
+	font-weight: 600;
+}
+.font-weight-bolder {
+	font-weight: 900;
+}
+.is-gray {
+	color: $gray;
+}
+.is-main-shadow {
+	box-shadow: $main-shadow;
+}
